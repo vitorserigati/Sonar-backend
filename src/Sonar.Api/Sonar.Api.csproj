@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IncludeInCodeCoverage>true</IncludeInCodeCoverage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sonar.Application\Sonar.Application.csproj" />
+    <ProjectReference Include="..\Sonar.Infrastructure\Sonar.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\aspire\Sonar.ServiceDefaults\Sonar.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>
