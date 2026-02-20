@@ -7,6 +7,8 @@
     <!-- Infrastructure Dependencies -->
     <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.1.1" />
     <!-- Domain Dependencies -->
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.3" />
+    <PackageVersion Include="Scrutor" Version="7.0.0" />
     <PackageVersion Include="ValueOf" Version="2.0.31" />
     <!-- Api Dependencies -->
     <PackageVersion Include="FluentValidation" Version="12.1.1" />
